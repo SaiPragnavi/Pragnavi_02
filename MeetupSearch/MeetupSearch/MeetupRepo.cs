@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MeetupSearch.Model
+namespace MeetupSearch
 {
-    public class Meetup
+    public class MeetupRepo
     {
-        public List<string> getRegistered()
-        {
+        public List<string> getRegistered() {
             List<string> r = new List<string>();
             r.Add("azure");
             r.Add("aws");
             r.Add("ML");
             return r;
         }
-        
     }
 }

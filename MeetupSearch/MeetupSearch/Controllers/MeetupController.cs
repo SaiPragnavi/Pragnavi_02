@@ -9,12 +9,14 @@ using MeetupSearch;
 namespace MeetupSearch.Controllers
 {
     
-    [ApiController]
-    [Route("[controller]")]
+    
+    
     public class MeetupController : ControllerBase
     {
         string[] registered = { "azure", "aws", "ML" };
         string search = "ML";
+        
+        [Route("Meetup/search")]
         public List<string> searchByName(string search)
         {
 
@@ -30,7 +32,24 @@ namespace MeetupSearch.Controllers
                     }
                 }
             }
-            l.Add(search + " Not found");
+            l.Add("Not registered to " + search);
+            return l;
+        }
+        string mName = "ML";
+
+        [Route("Meetup/register")]
+        public List<string> register(string mName)
+        {
+
+            List<string> l = new List<string>();
+            if (!String.IsNullOrEmpty(search))
+            {
+                for (int i = 0; i < registered.Length; i++)
+                {
+                    l.Add(registered[i]);
+                }
+                l.Add(mName);
+            }
             return l;
         }
 

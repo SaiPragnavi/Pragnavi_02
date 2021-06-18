@@ -18,3 +18,4 @@ E:\honeywell\Pragnavi_02\MeetupSearch\MeetupSearch\obj\Debug\netcoreapp3.1\Meetu
 E:\honeywell\Pragnavi_02\MeetupSearch\MeetupSearch\obj\Debug\netcoreapp3.1\MeetupSearch.dll
 E:\honeywell\Pragnavi_02\MeetupSearch\MeetupSearch\obj\Debug\netcoreapp3.1\MeetupSearch.pdb
 E:\honeywell\Pragnavi_02\MeetupSearch\MeetupSearch\obj\Debug\netcoreapp3.1\MeetupSearch.genruntimeconfig.cache
+E:\honeywell\Pragnavi_02\MeetupSearch\MeetupSearch\bin\Debug\netcoreapp3.1\MeetupRepo.cs
